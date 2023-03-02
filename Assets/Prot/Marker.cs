@@ -21,8 +21,8 @@ public class Marker : MonoBehaviour
             GameObject obj = Instantiate(markerPrefab);
             obj.transform.position = this.transform.position;
 
-            HumanPoseHandler pose;
-            this.GetComponent<HumanPoseHandler>().GetHumanPose(ref pose);
+            //HumanPose pose = GetComponent<HumanPose>();
+            //this.GetComponent<HumanPoseHandler>().GetHumanPose(ref pose);
             startTime += markInterval;
         }
     }

@@ -1411,20 +1411,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   MotionSmoothness: 0
---- !u!114 &94377536
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 94377526}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d81346f5f1aa364c833153da0469f69, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  markInterval: 1
-  markerPrefab: {fileID: 1501376863}
 --- !u!1001 &931941151
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1514,6 +1500,26 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e38cf3fda1b081408c101d4bf849304, type: 3}
+--- !u!1 &1133673956 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8175128229167764821, guid: 9d8dd4964df91704bb004c885dd354cd,
+    type: 3}
+  m_PrefabInstance: {fileID: 94377525}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1133673958
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1133673956}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d81346f5f1aa364c833153da0469f69, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  markInterval: 3
+  markerPrefab: {fileID: 1501376863}
 --- !u!1 &1182578857
 GameObject:
   m_ObjectHideFlags: 0
